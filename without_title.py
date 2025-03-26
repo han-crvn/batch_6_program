@@ -2,5 +2,11 @@
 message = input("Enter the word or sentence: ")
 
 # Change the first letter of the word to uppercase and the remaining to lowercase.
+title_message = ""
 
-# Print result.
+for word in message.split():
+    if word:
+        title_message += word[0].upper() + word[1:].lower() + " "
+
+# Print the result.
+print(title_message)
