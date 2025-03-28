@@ -1,4 +1,4 @@
-# Add store for lines of messages
+# Add storage for lines of messages
 line_of_message = []
 
 # Allow user to input the word or sentence.
