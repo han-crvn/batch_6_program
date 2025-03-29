@@ -2,7 +2,7 @@
 message = input("Enter the word or sentence: ")
 
 # Remove the spaces from left.
-for i in range (len(message)):
+for i in range(len(message)):
     if message[i] != " ":
         message = message[i:]
         break
