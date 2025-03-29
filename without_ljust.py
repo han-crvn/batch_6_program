@@ -12,7 +12,7 @@ while True:
     else:
 
         # Format the input to left justify.
-        line_of_message.append(message + " " * ( 50 - len(message)))
+        line_of_message.append(message + " " * (50 - len(message)))
 
 # Print the result.
 for message in line_of_message:
