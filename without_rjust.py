@@ -9,6 +9,11 @@ while True:
     if message.isdigit():
         break
 
-# Format the input to right justify.
-        
+    else:
+
+        # Format the input to right justify.
+        line_of_message.append(" " * (150 - len(message)) + message)
+
 # Print the result.
+for message in line_of_message:
+    print(message)
